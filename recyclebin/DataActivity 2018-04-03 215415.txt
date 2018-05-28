@@ -1,0 +1,15 @@
+// Init TabLayout
+        //int dp = useDpNotPx();
+        //TextView tv = new TextView(this);
+        //tv.setWidth(120 * dp);
+        //tv.setHeight(45 * dp);
+        //tv.setGravity(View.TEXT_ALIGNMENT_CENTER);
+        //tv.setTextColor(getResources().getColor(R.color.colorTextActivatedLight));
+        //tv.setTextSize(13);
+        
+        String[] tabTitles = {"数据表格", "坐标图", "数据分析"};
+        for (String tabTitle : tabTitles) {
+            //tv.setText(tabTitle);
+            //tabLayout.addTab(tabLayout.newTab().setCustomView(tv));
+            tab.addTab(tab.newTab().setText(tabTitle));
+        }

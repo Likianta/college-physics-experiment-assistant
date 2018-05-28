@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.likianta.cpea.MainActivity"
+    android:background="@color/colorBackground"
+    tools:ignore="ContentDescription, LabelFor">
+    
+    <!-- Decorative Elements -->
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_decor_left" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/main_decor_right" />
+    
+    <!-- Topic -->
+    
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        android:text="@string/main_title"
+        android:textColor="@color/colorTextHeading"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/main_subtitle1"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="13sp" />
+    
+    <TextView
+        android:id="@+id/main_subtitle2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/main_subtitle2"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="13sp" />
+    
+    <TextView
+        android:id="@+id/main_subtitle3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/main_subtitle3"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="13sp" />
+    
+    <EditText
+        android:id="@+id/main_edit_subtitle2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/main_subtitle2"
+        android:layout_alignEnd="@id/main_subtitle2"
+        android:hint="@string/main_subtitle2_hint"
+        android:inputType="date"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/colorTextNormal"
+        android:textColorHint="@color/colorTabUnselected"
+        android:textSize="13sp" />
+    
+    <EditText
+        android:inputType="text"
+        android:id="@+id/main_edit_subtitle3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/main_subtitle3"
+        android:layout_alignEnd="@id/main_subtitle3"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/colorTextNormal"
+        android:labelFor="@+id/main_edit_subtitle3"
+        android:textSize="13sp" />
+    
+    <!-- Entrance Buttons -->
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:background="#e3d8cd">
+        
+        <ImageView
+            android:id="@+id/main_refer_point"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+        
+        <Button
+            android:id="@+id/main_button1"
+            android:layout_width="120dp"
+            android:layout_height="72dp"
+            android:layout_alignBottom="@id/main_refer_point"
+            android:layout_alignEnd="@id/main_refer_point"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/main_entrance_button"
+            android:text="@string/main_entrance1" />
+        
+        <Button
+            android:id="@+id/main_button2"
+            android:layout_width="120dp"
+            android:layout_height="72dp"
+            android:layout_alignBottom="@id/main_refer_point"
+            android:layout_alignStart="@id/main_refer_point"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/main_entrance_button"
+            android:text="@string/main_entrance2" />
+        
+        <Button
+            android:id="@+id/main_button3"
+            android:layout_width="120dp"
+            android:layout_height="72dp"
+            android:layout_alignEnd="@id/main_refer_point"
+            android:layout_alignTop="@id/main_refer_point"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/main_entrance_button"
+            android:text="@string/main_entrance3" />
+        
+        <Button
+            android:id="@+id/main_button4"
+            android:layout_width="120dp"
+            android:layout_height="72dp"
+            android:layout_alignStart="@id/main_refer_point"
+            android:layout_alignTop="@id/main_refer_point"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/main_entrance_button"
+            android:text="@string/main_entrance4" />
+    
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    
+    <TableLayout
+        android:id="@+id/page_data1_table1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="2"
+        android:stretchColumns="0,1,3">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/data_page1_title1"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+        <TableRow
+            android:background="@color/colorBackgroundLayout"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_span="4"
+                android:gravity="center"
+                android:text="@string/data_page1_k1" />
+        
+        
+        </TableRow>
+        
+        <TableRow android:gravity="center"
+            android:background="@color/colorBackgroundLayout">
+            
+            <TextView
+                android:gravity="center"
+                android:text="@string/data_page1_x"
+                android:textColor="@color/colorTextNormal" />
+            
+            <TextView
+                android:gravity="center"
+                android:text="@string/data_page1_I"
+                android:textColor="@color/colorTextNormal" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center"
+                android:text="@string/data_page1_k1_args"
+                android:textColor="@color/colorTextNormal" />
+        
+        </TableRow>
+        
+        <TableRow>
+            
+            <TextView
+                android:gravity="center"
+                android:text="@string/data_page1_digit_000"
+                android:textColor="@color/colorTextNormal" />
+            
+            <EditText
+                android:id="@+id/page_data1_i1"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/colorTextNormal" />
+            
+            <TextView
+                android:gravity="center_vertical"
+                android:text="@string/data_page1_k1_args1"
+                android:textColor="@color/colorTextNormal" />
+            
+            <EditText
+                android:id="@+id/page_data1_k1_r"
+                android:textColor="@color/colorTextNormal" />
+        
+        </TableRow>
+    
+    </TableLayout>
+
+</RelativeLayout>

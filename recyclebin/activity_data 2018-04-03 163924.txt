@@ -1,0 +1,39 @@
+<ImageSwitcher
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:background="@drawable/rect_selector" />
+
+
+
+<TextView
+        android:id="@+id/data_subtitle1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:gravity="center"
+        android:text="@string/data_subtitle1"
+        android:textColor="@color/colorTextActivatedLight"
+        android:textSize="13sp" />
+    
+    <TextView
+        android:id="@+id/data_subtitle2"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:layout_toEndOf="@id/data_subtitle1"
+        android:gravity="center"
+        android:text="@string/data_subtitle2"
+        android:textColor="@color/colorTextUnactivatedLight"
+        android:textSize="13sp" />
+    
+    <TextView
+        android:id="@+id/data_subtitle3"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:layout_toEndOf="@id/data_subtitle2"
+        android:gravity="center"
+        android:text="@string/data_subtitle3"
+        android:textColor="@color/colorTextUnactivatedLight"
+        android:textSize="13sp" />

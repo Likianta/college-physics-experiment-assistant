@@ -1,0 +1,58 @@
+<resources>
+    
+    <!-- Base application theme -->
+    <!--<style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+    
+    <!-- My Text Appearances -->
+    <style name="MyTextTitle">
+        <!-- https://blog.csdn.net/hewence1/article/details/39249463 -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextHeading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="MyTextStatusEdit">
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorTextNormal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+    
+    <style name="MyTextTableCellX">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTextNormal</item>
+    </style>
+    
+    <style name="MyTextTableCellY">
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/colorTextNormal</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:background">@null</item>
+    </style>
+    
+    <style name="MyTextButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorTextNormal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlue">#0000ff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparent">#0000</color>
+    
+    <!-- custom colors -->
+    <color name="colorActionBar">#333432</color>
+    <color name="colorBackground">#e8e8e6</color>
+    <color name="colorBackgroundLight">#fafafa</color>
+    <color name="colorButtonDegree1">#333432</color>
+    <color name="colorButtonDegree9">#ffffff</color>
+    <color name="colorDividers">#e4e4e4</color>
+    <color name="colorSelectorOn">#1c1412</color>
+    <color name="colorSelectorOff">#0000</color>
+    <color name="colorTabSelected">#00ffff</color>
+    <color name="colorTabUnselected">#d8cccccc</color>
+    <color name="colorTextFocused">#00ffff</color>
+    <color name="colorTextHeading">#333333</color>
+    <color name="colorTextHint">#cccccc</color>
+    <color name="colorTextLight">#ffffff</color>
+    <color name="colorTextNormal">#333432</color>
+    <color name="colorTextUnfocused">#999999</color>
+
+
+</resources>

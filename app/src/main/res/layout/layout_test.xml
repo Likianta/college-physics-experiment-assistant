@@ -1,0 +1,21 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"/>
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="400dp"
+        android:text="标题"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

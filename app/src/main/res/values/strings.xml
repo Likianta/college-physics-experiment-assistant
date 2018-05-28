@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">大学物理实验助手</string>
+    
+    <!-- main_activity_strings -->
+    <string name="main_title">实验4.08&#160;&#160;&#160;滑线电阻的限流特性和分压特性的研究</string>
+    <string name="main_subtitle1">索引：《大学物理实验》第79页</string>
+    <string name="main_subtitle2">日期：</string>
+    <string name="main_subtitle2_hint">2018年4月2日</string>
+    <string name="main_subtitle3">组员：</string>
+    <string name="main_entrance1">仪器检查</string>
+    <string name="main_entrance2">公式检查</string>
+    <string name="main_entrance3">数据记录</string>
+    <string name="main_entrance4">生成报告</string>
+    
+    <!-- data page strings -->
+    <string name="data_title">数据记录表格</string>
+    <string name="data_subtitle1">数据表格</string>
+    <string name="data_subtitle2">坐标图</string>
+    <string name="data_subtitle3">数据分析</string>
+    
+    <!-- data page1 strings -->
+    <string name="data_page1_title1">表1&#160;&#160;&#160;滑线电阻的限流特性研究测量数据</string>
+    <string name="data_page1_title2">表2&#160;&#160;&#160;滑线电阻的分压特性研究测量数据</string>
+    <string name="data_page1_k1">K&#160;=&#160;1.00</string>
+    <string name="data_page1_k2">K&#160;=&#160;0.20</string>
+    <string name="data_page1_k3">K&#160;=&#160;0.05</string>
+    <string name="data_page1_note">在此输入备注。例如：\n当前的电源电压U、滑阻R以及定阻R0</string>
+    <string name="data_page1_status_label">当前选择器下的\n电路参量</string>
+    <string name="data_page1_status_r">R = ?</string>
+    <string name="data_page1_status_r0">R0 = ?</string>
+    <string name="data_page1_status_u0">U0 = ?</string>
+    <string name="data_page1_status_progress">信息完整度&#160;</string>
+    <string name="data_page1_x">x</string>
+    <string name="data_page1_i">通过负载电阻的\n电流&#160;I</string>
+    <string name="data_page1_u">负载电阻两端的\n电压&#160;U</string>
+    <string name="data_page1_digit_000">0.00</string>
+    <string name="data_page1_digit_010">0.10</string>
+    <string name="data_page1_digit_020">0.20</string>
+    <string name="data_page1_digit_030">0.30</string>
+    <string name="data_page1_digit_040">0.40</string>
+    <string name="data_page1_digit_050">0.50</string>
+    <string name="data_page1_digit_060">0.60</string>
+    <string name="data_page1_digit_070">0.70</string>
+    <string name="data_page1_digit_080">0.80</string>
+    <string name="data_page1_digit_085">0.85</string>
+    <string name="data_page1_digit_090">0.90</string>
+    <string name="data_page1_digit_095">0.95</string>
+    <string name="data_page1_digit_100">1.00</string>
+    <string name="data_page1_jump_to_chart">查看坐标图</string>
+    <string name="data_page1_switch_table">切换表格</string>
+    
+    <!-- data page2 strings -->
+    <string name="data_page2_title1">表1&#160;&#160;滑线电阻的限流特性坐标图</string>
+    <string name="data_page2_title2">表2&#160;&#160;滑线电阻的分压特性坐标图</string>
+    <string name="data_page2_chart1_description">x</string>
+    <string name="data_page2_chart2_description">x</string>
+    <string name="data_page2_k1">●&#160;K&#160;=&#160;1.00</string>
+    <string name="data_page2_k2">●&#160;K&#160;=&#160;0.20</string>
+    <string name="data_page2_k3">●&#160;K&#160;=&#160;0.05</string>
+
+</resources>

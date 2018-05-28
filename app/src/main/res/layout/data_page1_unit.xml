@@ -1,0 +1,24 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <data>
+        
+        <variable
+            name="cell"
+            type="com.likianta.cpea.TableData" />
+    </data>
+    
+    <TableRow
+        android:divider="@drawable/data_page1_table_divider2"
+        android:showDividers="beginning|middle|end">
+        
+        <TextView
+            android:id="@+id/valueX"
+            style="@style/MyTextTableCellX" />
+        
+        <EditText
+            android:id="@+id/valueY"
+            style="@style/MyTextTableCellY"
+            tools:ignore="LabelFor" />
+    </TableRow>
+</layout>

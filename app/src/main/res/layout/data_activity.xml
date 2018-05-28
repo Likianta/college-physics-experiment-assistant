@@ -1,0 +1,81 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="data"
+            type="com.likianta.cpea.TableData" />
+    </data>
+  
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    tools:context="com.likianta.cpea.DataActivity"
+    tools:ignore="ContentDescription">
+    
+    <!-- Title Bar (Untouchable) -->
+    
+    <ImageView
+        android:id="@+id/data_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/colorActionBar" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/data_title"
+        android:textColor="@color/colorTextLight"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    
+    <!-- Tab Buttons -->
+    
+    <TextView
+        android:id="@+id/data_tab1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/data_subtitle1"
+        android:textColor="@color/colorTabUnselected" />
+    
+    <TextView
+        android:id="@+id/data_tab2"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:layout_toEndOf="@id/data_tab1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/data_subtitle2"
+        android:textColor="@color/colorTabUnselected" />
+    
+    <TextView
+        android:id="@+id/data_tab3"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@id/data_action_bar"
+        android:layout_toEndOf="@id/data_tab2"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/data_subtitle3"
+        android:textColor="@color/colorTabUnselected" />
+    
+    <!-- Page Container -->
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/data_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/data_action_bar" />
+
+</RelativeLayout>
+
+</layout>
